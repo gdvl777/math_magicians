@@ -37,6 +37,7 @@ function Calculator() {
     next: null,
     operation: null,
   });
+};
 
   function handleClick(buttonName) {
     setCalculatorData((prevState) => calculate(prevState, buttonName));
