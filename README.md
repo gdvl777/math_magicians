@@ -128,7 +128,7 @@
 
 ### Setup
 
-> Clone this repository to your desired folder: https://github.com/gdvl777/Math_Magician.git
+> Clone this repository to your desired folder: https://github.com/gdvl777/math_magicians.git
 
 ### Install
 
@@ -165,7 +165,7 @@
 
 > Contributions, issues, and feature requests are welcome!
 
-> Feel free to check the [issues page](https://github.com/gdvl777/math_magician/issues).
+> Feel free to check the [issues page](https://github.com/gdvl777/math_magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,6 +189,6 @@
 
 ## 📝 License <a name="license"></a>
 
-> This project is [MIT](https://github.com/gdvl777/math_magician/blob/dev/MIT.md).
+> This project is [MIT](https://github.com/gdvl777/math_magicians/blob/events/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
