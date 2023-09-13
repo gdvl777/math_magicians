@@ -1,65 +1,194 @@
-# React and Redux
+<a name="readme-top"></a>
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+<div align="center">
+  <br/>
 
-## Set-up GitHub Actions
+  <h1><b>Math_Magician</b></h1>
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
+</div>
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+# 📗 Table of Contents
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Math\_Magicians ](#-math_magicians-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Project Structure](#project-structure)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-Please do the following **steps in this order**:
+# 📖 Math_Magicians <a name="about-project"></a>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+> "Math_Magician" is a project that allows me to showcase my web development skills and expertise in React and UI/UX design. With a focus on engaging interfaces, I demonstrate proficiency in various aspects including wireframing, component creation, event handling, and API integration. The project embodies intuitive design principles and seamless functionality, delivering a captivating user experience.
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+## 🛠 Built With <a name="built-with"></a>
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+### Tech Stack <a name="tech-stack"></a>
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+<details>
+  <summary>React</summary>
+    <ul>
+      <li>This project use <a href="https://react.dev/">React</a></li>
+    </ul>
+</details>
 
-## Set-up linters in your local env
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li>This project use <a href="https://github.com/microverseinc/curriculum-html-css/blob/main/html5.md">HTML.</a></li>
+  </ul>
+</details>
 
-### ESLint
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li>The <a href="https://github.com/microverseinc/curriculum-html-css/blob/main/html5.md">CSS</a> is used to provide the design in the whole page.</li>
+  </ul>
+</details>
 
-1. Run 
-    ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Eslint](https://eslint.org/docs/latest/user-guide/command-line-interface#fixing-problems) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+<details>
+  <summary>Linters</summary>
+  <ul>
+    <li>The <a href="https://github.com/microverseinc/linters-config">Linters</a> are tools that help us to check and solve the errors in the code</li>
+    This project count with three linters: 
+    <ul>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </ul>
+</details>
 
-### Stylelint
 
-1. Run
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+### Key Features <a name="key-features"></a>
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/usage/options) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+-   **React configuration**
+-   **HTML Generation**
+-   **CSS Styling**
+-   **Development Server**
+-   **Code Quality**
+-   **Modular Structure**
+-   **JavaScript Functionality**
+-   **Gitflow**
 
-## Test/Deployment Actions
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+> You can see a Demo here: [Demo](https://gdvl777.github.io/math_magician/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
+> This project requires Node.js and npm installed on your machine.
+
+-Node.js
+-npm
+
+> -Clone this repository to your local machine using:
+
+>  git clone https://github.com/gdvl777/math_magicians.git
+
+> -Navigate to the project folder:
+
+> cd Leaderboard
+
+> -Install the project dependencies:
+
+> npm install
+
+> o start the development server, run the following command:
+
+> npm start
+
+### Project Structure
+
+> The project follows the following folder and file structure:
+
+> /src: Contains the source files of the application.
+> /src/index.js: Main entry point of the JavaScript application.
+> /src/style.css: CSS file for the application styles.
+> /src/index.html: Base HTML file of the application.
+> /dist: Contains the generated production files.
+> webpack.config.js: Webpack configuration file.
+
+### Setup
+
+> Clone this repository to your desired folder: https://github.com/gdvl777/Math_Magician.git
+
+### Install
+
+> Install this project with: install Stylelint and ESLint
+
+### Usage
+
+> To run the project, execute the following command: just need a web Browser
+
+### Run tests
+
+> To run tests, run the following command: npm start
+> you just need a simple web browser to run this project for a test
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Daniel Villalba Lynch**
+
+-   GitHub: [@gdvl777](https://github.com/gdvl777)
+-   X: [X](https://www.x.com/gdvl777_)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+-   **Send and receive data from API**
+-   **Testing**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+> Contributions, issues, and feature requests are welcome!
+
+> Feel free to check the [issues page](https://github.com/gdvl777/math_magician/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project show support by following this account
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> -   Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.
+
+> -   GitHub Docs for providing a wealth of information on Git and GitHub.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+> This project is [MIT](https://github.com/gdvl777/math_magician/blob/dev/MIT.md).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
