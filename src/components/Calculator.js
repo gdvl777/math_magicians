@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './calculator.css';
 import calculate from '../logic/calculate';
 
-
 export function Display(props) {
   const { value } = props;
   return <div className="display">{value}</div>;
@@ -14,15 +13,9 @@ Display.propTypes = {
 };
 
 export function Button(props) {
-
   const { value, type, onClick } = props;
   return (
     <button className={`button ${type}`} type="button" onClick={onClick}>
-
-  const { value, type } = props;
-  return (
-    <button className={`button ${type}`} type="button">
-
       {value}
     </button>
   );
@@ -31,9 +24,7 @@ export function Button(props) {
 Button.propTypes = {
   value: PropTypes.string.isRequired,
   type: PropTypes.string,
-
   onClick: PropTypes.func.isRequired,
-
 };
 
 Button.defaultProps = {
@@ -41,13 +32,11 @@ Button.defaultProps = {
 };
 
 function Calculator() {
-
   const [calculatorData, setCalculatorData] = useState({
     total: null,
     next: null,
     operation: null,
   });
-};
 
   function handleClick(buttonName) {
     setCalculatorData((prevState) => calculate(prevState, buttonName));
@@ -55,7 +44,6 @@ function Calculator() {
 
   const { total, next } = calculatorData;
   const displayValue = next || total || '0';
-
 
   return (
     <div className="calculator">
