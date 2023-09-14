@@ -3,10 +3,11 @@ import '../styles/quote.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState('');
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    setLoading(true);
     fetch('https://api.api-ninjas.com/v1/quotes?category=happiness', {
       headers: { 'X-Api-Key': 'abI0ZFGUK8RjoHhoF9KItg==QfJBvXHJhb0V6EUy' },
     })
