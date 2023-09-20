@@ -101,7 +101,7 @@
 
 > -Clone this repository to your local machine using:
 
->  git clone https://github.com/ClaudiaRojasSoto/math_magicians.git
+>  git clone https://github.com/gdvl777/math_magicians.git
 
 > -Navigate to the project folder:
 
@@ -133,9 +133,9 @@
 
 ### Setup
 
-> Clone this repository to your desired folder: https://github.com/ClaudiaRojasSoto/math_magicians.git
+> Clone this repository to your desired folder: https://github.com/gdvl777/math_magicians.git
 
-### Install
+### Install 
 
 > Install this project with: install Stylelint and ESLint
 
@@ -150,10 +150,10 @@
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Claudia Rojas**
+👤 **Daniel Villalba**
 
--   GitHub: [@githubhandle](https://github.com/ClaudiaRojasSoto)
--   LinkedIn: [LinkedIn](https://www.linkedin.com/in/claudia-soto-260504208/)
+-   GitHub: [@gdvl777](https://github.com/gdvl777)
+-   X: [@gdvl777_](https://www.x.com/gdvl777/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,7 +168,7 @@
 
 > Contributions, issues, and feature requests are welcome!
 
-> Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/math_magicians/issues).
+> Feel free to check the [issues page](https://github.com/gdvl777/math_magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,6 +192,6 @@
 
 ## 📝 License <a name="license"></a>
 
-> This project is [MIT](https://github.com/ClaudiaRojasSoto/math_magicians/blob/develop/MIT.md).
+> This project is [MIT](https://github.com/gdvl777/math_magicians/blob/develop/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

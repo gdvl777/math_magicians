@@ -1,4 +1,4 @@
-Copyright 2023, Claudia Rojas
+Copyright 2023, Daniel Villalba Lynch
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this Math_Magicians and associated documentation files, to deal in the Math_Magicians without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Math_Magicians, and to permit persons to whom the Math_Magicians is furnished to do so, subject to the following conditions:
 
