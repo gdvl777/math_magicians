@@ -3,6 +3,7 @@
 <div align="center">
   <br/>
 
+
   <h1><b>math_magicians</b></h1>
 
 </div>
@@ -10,8 +11,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 math\_magicians ](#-math_magicians-)
-  - [🛠 Built With ](#-built-with-)
+- [📖 Math\_Magicians ](#-math_magicians-)
+ - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
@@ -27,6 +28,7 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
+
 
 # 📖 math_magicians <a name="about-project"></a>
 
@@ -104,12 +106,12 @@
 >  git clone https://github.com/gdvl777/math_magicians.git
 
 > -Navigate to the project folder:
-
 > cd math_magicians
 
 > -Install the project dependencies:
 
 > npm install
+
 
 > To start the development server, run the following command:
 
@@ -118,6 +120,7 @@
 ### Project Structure
 
 > The project follows the following folder and file structure:
+
 
 - /src: Contains the source files of the application.
 - /src/index.js: Main entry point of the JavaScript application.
@@ -130,6 +133,7 @@
 - /public: Contains the public files and assets of the application.
 - /public/index.html: Base HTML file of the application.
 - /build: Contains the generated production files.
+
 
 ### Setup
 
@@ -156,11 +160,13 @@
 -   X: [@gdvl777_](https://www.x.com/gdvl777_/)
 
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--   **Testing**
+-   **Send and receive data from API**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,6 +198,7 @@
 
 ## 📝 License <a name="license"></a>
 
-> This project is [MIT](https://github.com/gdvl777/math_magicians/blob/develop/MIT.md).
+
+> This project is [MIT](https://github.com/gdvl777/math_magicians/blob/dev/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
