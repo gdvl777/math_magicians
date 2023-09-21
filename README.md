@@ -163,6 +163,10 @@
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+👤 **Abiy Hussen Aman**
+
+-   GitHub: [@abiy006](https://github.com/abiy006)
+
 > Contributions, issues, and feature requests are welcome!
 
 > Feel free to check the [issues page](https://github.com/gdvl777/math_magicians/issues).
