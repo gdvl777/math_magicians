@@ -56,7 +56,7 @@ describe('calculate', () => {
     });
   });
 
- it('should handle "=" button correctly', () => {
+  it('should handle "=" button correctly', () => {
     const buttonName = '=';
     const obj = {
       total: '3',
