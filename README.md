@@ -158,6 +158,10 @@
 👤 **Abiy Hussen Aman**
 
 -   GitHub: [@abiy006](https://github.com/abiy006)
+-   
+👤 **Fortune**
+
+-   GitHub: [@braingenius2](https://github.com/braingenius2)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
