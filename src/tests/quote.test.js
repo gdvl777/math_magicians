@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react';
-import Quote from '../tests/Quote';
+import Quote from '../components/Quote.js';
 
 // Mock the fetch function to simulate a successful response
 beforeAll(() => {
@@ -19,7 +19,7 @@ afterAll(() => {
 
 test('renders the Quote component', async () => {
   // Render the Quote component
-  const { getByText, getByTestId } = render(<Quote />);
+  const { getByText } = render(<Quote />);
 
   // Wait for the component to fetch data and render
   await waitFor(() => {
