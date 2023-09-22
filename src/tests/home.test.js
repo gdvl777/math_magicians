@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Home from './Home';
+import Home from '../tests/Home';
 
 test('renders the Home component', () => {
   // Render the Home component
