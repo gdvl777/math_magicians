@@ -5,7 +5,7 @@ import Quote from '../components/Quote';
 // Mock the fetch function to simulate a successful response
 beforeAll(() => {
   global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: () => Promise.resolve([{ quote: 'Test Quote' }]),
-    }))
+  }));
 });
 
 afterAll(() => {
