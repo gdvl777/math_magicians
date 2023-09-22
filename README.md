@@ -196,6 +196,6 @@
 
 ## 📝 License <a name="license"></a>
 
-> This project is [MIT](https://github.com/gdvl777/math_magicians/blob/develop/MIT.md).
+> This project is [MIT](./MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
