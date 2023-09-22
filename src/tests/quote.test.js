@@ -1,14 +1,11 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react';
-import Quote from '../components/Quote.js';
+import Quote from '../components/Quote';
 
 // Mock the fetch function to simulate a successful response
 beforeAll(() => {
   global.fetch = jest.fn(() =>
-    Promise.resolve({
-      ok: true,
-      json: () => Promise.resolve([{ quote: 'Test Quote' }]),
-    })
+    Promise.resolve({ ok: true, json: () => Promise.resolve([{ quote: 'Test Quote' }]), })
   );
 });
 
