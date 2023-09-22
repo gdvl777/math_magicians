@@ -56,6 +56,20 @@ describe('calculate', () => {
     });
   });
 
+ it('should handle "=" button correctly', () => {
+    const buttonName = '=';
+    const obj = {
+      total: '3',
+      next: '3',
+      operation: '+',
+    };
+    expect(calculate(obj, buttonName)).toEqual({
+      total: '6',
+      next: null,
+      operation: null,
+    });
+  });
+
   it('should handle decimal button correctly', () => {
     const buttonName = '.';
     const obj = {
