@@ -12,6 +12,10 @@ test('multiplication works correctly', () => {
   expect(operate('2', '3', 'x')).toBe('6');
 });
 
+test('multiplication works correctly', () => {
+  expect(operate('3', '3', 'x')).toBe('9');
+});
+
 test('division works correctly', () => {
   expect(operate('6', '2', '÷')).toBe('3');
 });
