@@ -155,6 +155,10 @@
 -   GitHub: [@gdvl777](https://github.com/gdvl777)
 -   X: [@gdvl777_](https://www.x.com/gdvl777/)
 
+👤 **Abiy Hussen Aman**
+
+-   GitHub: [@abiy006](https://github.com/abiy006)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,10 +169,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
-
-👤 **Abiy Hussen Aman**
-
--   GitHub: [@abiy006](https://github.com/abiy006)
 
 > Contributions, issues, and feature requests are welcome!
 
